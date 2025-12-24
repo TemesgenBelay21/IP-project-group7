@@ -28,3 +28,27 @@ h1 {
     align-items: center;
 }
 
+.square:hover {
+    background-color: #FFFFE0;
+}
+
+#restartButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+#restartButton:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.winner {
+    background-color: #90ee90; // light green
+}
