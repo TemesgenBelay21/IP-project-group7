@@ -1,15 +1,20 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Internet%20Programming-I-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Code%20Review-Assignment-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Tic--Tac--Toe-Project-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Group%20Assignment-Code%20Review-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Hotel%20Website-orange?style=for-the-badge">
 </p>
 
-<h1 align="center">🎮 Tic Tac Toe (OX) – Code Review Project</h1>
+<h1 align="center">🏨 Hotel Website – Code Review Project</h1>
 
 <p align="center">
-  A group-based code review assignment for <strong>SWEG3107 – Internet Programming I</strong><br>
+  <strong>SWEG3107 – Internet Programming I</strong><br>
   Department of Software Engineering | College of Engineering
 </p>
+
+---
+
+## 👥 Group Name
+<h3 align="center">🚀 Code Crafters Team</h3>
 
 ---
 
@@ -17,15 +22,15 @@
 - **Course:** Internet Programming – I (SWEG3107)  
 - **Section:** D  
 - **Assignment Type:** Group Assignment (Code Review)  
-- **Submitted To:** *Ms. Aster Alemu*  
-- **Submission Date:** *Dec 18, 2025 (G.C.)*
+- **Submitted To:** Ms. Aster Alemu  
+- **Submission Date:** December 18, 2025 (G.C.)
 
 ---
 
-## 👥 Group Members
+## 👤 Group Members
 
-| No | Name | ID |
-|----|------|----|
+| No | 👨‍💻 Name | 🆔 ID |
+|----|----------|------|
 | 1 | Surafel Mesfin | ETS1322/16 |
 | 2 | Surafel Sintayehu | ETS1324/16 |
 | 3 | Tamru Masresha | ETS1333/16 |
@@ -34,119 +39,55 @@
 
 ---
 
-## 📖 Introduction
-Code review is a fundamental practice in software engineering that improves **code quality**, **correctness**, and **maintainability**.  
-This project evaluates a **web-based Tic Tac Toe (OX) game**, focusing on structure, logic, efficiency, readability, and user experience.
+## 📖 Project Overview
+This project is a **code review and analysis of a Hotel Website** developed using **HTML, CSS, and JavaScript**.  
+The website provides visitors with essential hotel information such as **room types, services, gallery, booking form, and contact details** through a clean and user-friendly interface.
 
-Tic Tac Toe serves as an effective example for demonstrating:
-- Conditional logic
-- Event handling
-- State management
-- DOM manipulation
-
-The original implementation was adapted from a tutorial by **Canan Korkut (2020)** and reviewed critically for improvement opportunities.
+The review focuses on evaluating the website’s **structure, design, interactivity, performance, and maintainability**, while identifying possible improvements to enhance user experience and accessibility.
 
 ---
 
-## 🧩 Project Overview
-The Tic Tac Toe game is built using:
-
-- **HTML** → Structure of the game board and controls  
-- **CSS** → Layout, grid design, and visual clarity  
-- **JavaScript** → Game logic, state management, and interactivity  
-
-### Key Features
-- Interactive 3×3 grid
-- Two-player turn-based gameplay
-- Win and tie detection
-- Restart functionality without page reload
-- Real-time feedback messages
+## 🛠️ Technologies Used
+- 🌐 HTML5 – page structure and content  
+- 🎨 CSS3 – layout, styling, and responsiveness  
 
 ---
 
-## 🧠 Code Structure & Logic (JavaScript)
-
-✔ Organized variable declarations  
-✔ Modular functions (`checkWin`, `checkTie`, `restartButton`)  
-✔ Predefined winning combinations  
-✔ Controlled game state using flags  
-✔ Efficient event handling with early returns  
-
-The code is structured to ensure **clarity**, **maintainability**, and **correct logic flow**.
+## ✨ Website Features
+- Responsive hotel homepage  
+- Room and service showcase  
+- Image gallery section  
+- Booking / reservation form  
+- Contact information and navigation menu  
 
 ---
 
-## 🎨 Game Design & Functionality
-- Simple and intuitive user interface
-- Clear visual separation of grid cells
-- Hover effects for better usability
-- Prevents invalid moves
-- Displays turn status, win, or tie dynamically
-- Allows multiple consecutive games
+## 🔍 Code Review Focus Areas
+- HTML structure and semantic correctness  
+- CSS layout, responsiveness, and styling consistency  
+- JavaScript logic and event handling  
+- Performance and loading efficiency  
+- Documentation and readability  
 
 ---
 
-## ⚡ Efficiency & Performance
-- Uses a predefined array for win conditions
-- Avoids redundant checks
-- Minimal DOM manipulation
-- Lightweight and responsive gameplay
-- Optimized for small-scale web applications
-
----
-
-## 📝 Documentation & Readability
-### Strengths
-- Descriptive variable and function names
-- Consistent indentation and formatting
-- Modular logic design
-
-### Areas for Improvement
-- Add inline comments in critical functions
-- Improve beginner-friendliness
-- Enhance restart feedback visually or audibly
-
----
-
-## 🚀 Identified Issues & Suggested Improvements
-
-### 🎯 Visual Feedback for Winning Combination
-- Highlight winning squares using CSS classes
-- Remove highlight on restart to reset visuals
-
-### 🧩 Global Variables
-- Encapsulate `currentPlayer` and `gameOver` into a single game state object
-
-### ⌨️ Keyboard Accessibility
-- Enable arrow-key navigation
-- Use Enter or Space to place moves
-- Improve accessibility for all users
-
-### 🗒️ Minimal Comments
-- Add brief inline comments in:
-  - `checkWin()`
-  - `checkTie()`
-  - Click event handlers
-
----
-
-## ✅ Summary
-This project demonstrates a **well-structured and functional** implementation of a Tic Tac Toe game using core web technologies.  
-It follows good programming practices, manages game state effectively, and provides a solid foundation for further enhancements.
-
-With minor improvements in **accessibility**, **visual feedback**, and **documentation**, the application can achieve a higher level of usability and maintainability.
+## ⚠️ Identified Issues & Improvements
+- Improve form validation using JavaScript  
+- Enhance accessibility (keyboard navigation, ARIA labels)  
+- Reduce repetitive CSS styles  
+- Add comments to complex JavaScript logic  
+- Optimize images for faster loading  
 
 ---
 
 ## 📚 References
-- Korkut, C. (2020). *How to create a tic-tac-toe with HTML, CSS, and JavaScript*. Medium  
+- MDN Web Docs – HTML, CSS, JavaScript  
 - Atlassian – Code Review Best Practices  
-- Built In – Code Review Best Practices  
-- Code-Review.org – Improving Code Review Skills  
+- Built In – Software Code Review Guidelines  
 
 ---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20With-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square">
+  <img src="https://img.shields.io/badge/Project-Type%20Hotel%20Website-success?style=flat-square">
 </p>
